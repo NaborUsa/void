@@ -1,0 +1,42 @@
+https://github.com/void-linux/xbps
+
+https://github.com/void-linux/void-packages
+
+https://wiki.archlinux.org/title/Sxhkd
+
+https://www.youtube.com/watch?v=44I2i1QynbM
+
+xbps-install [OPTIONS] [PKGNAME...]
+
+sudo xbps-
+
+
+
+xbps-intall -h
+
+sudo xbps-install -S [PKGNAME...]
+
+sudo xbps-install -S[y]v
+
+sudo xbps-remove -h
+
+sudo xbps-remove -R [PKGNAME...]   (remove the dependencies)
+
+sudo xbps-remove [PKGNAME...]
+
+sudo xbps-remove -o  (remove orphan pkg)
+
+##############################################
+
+sudo vim /usr/share/xbps.d
+
+sudo xbps-install -S void-repo-nonfree
+
+xbps-src:
+https://www.youtube.com/watch?v=fwUYMoXyRvI
+https://www.youtube.com/watch?v=uLhXFP51GWU
+https://www.youtube.com/watch?v=O8O2ZWlTozQ
+https://www.youtube.com/watch?v=f4g_6WTLba8
+
+
+
