@@ -18,6 +18,9 @@ sudo xbps-install -S [PKGNAME...]
 
 sudo xbps-install -S[y]v
 
+sudo xbps-install -Su   [update all the packeges]
+sudo xbps-install -Syu
+
 sudo xbps-remove -h
 
 sudo xbps-remove -R [PKGNAME...]   (remove the dependencies)
@@ -26,13 +29,24 @@ sudo xbps-remove [PKGNAME...]
 
 sudo xbps-remove -o  (remove orphan pkg)
 
+sudo xbps-query
+sudo xbps-query -l
+
+xbps-query -RS \* | wc -l
+
+More packeges
+xbps-query -Rs void-
+xbps-query -Rs void-repo
+
 ##############################################
 
 sudo vim /usr/share/xbps.d
 
 sudo xbps-install -S void-repo-nonfree
 
-xbps-src:
+xbps-src:2
+https://github.com/NaborUsa/void/edit/main/xbps
+
 https://www.youtube.com/watch?v=fwUYMoXyRvI
 https://www.youtube.com/watch?v=uLhXFP51GWU
 https://www.youtube.com/watch?v=O8O2ZWlTozQ
