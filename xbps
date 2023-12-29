@@ -44,8 +44,17 @@ sudo vim /usr/share/xbps.d
 
 sudo xbps-install -S void-repo-nonfree
 
-xbps-src:2
-https://github.com/NaborUsa/void/edit/main/xbps
+xbps-src:
+https://github.com/void-linux/void-packages
+cd .local/share
+mkdir pkgs
+cd pkgs
+git clone https://github.com/NaborUsa/void/edit/main/xbps
+cd void-packages
+./xbps-src binary-bootstrap
+
+
+
 
 https://www.youtube.com/watch?v=fwUYMoXyRvI
 https://www.youtube.com/watch?v=uLhXFP51GWU
